@@ -2,7 +2,7 @@ import numpy as np
 from scipy.optimize import linear_sum_assignment as linear_assignment
 
 
-def splitClusterAcc(y_true, y_pred, mask):
+def split_cluster_acc(y_true, y_pred, mask):
     """
     Calculate clustering accuracy. Require scikit-learn installed
     First compute linear assignment on all data, then look at how good the accuracy is on subsets
@@ -49,12 +49,12 @@ def splitClusterAcc(y_true, y_pred, mask):
     return total_acc, old_acc, new_acc
 
 
-def logAccs(y_true, y_pred, mask):
+def log_accs(y_true, y_pred, mask):
     mask = mask.astype(bool)
     y_true = y_true.astype(int)
     y_pred = y_pred.astype(int)
 
-    all_acc, old_acc, new_acc = splitClusterAcc(y_true, y_pred, mask)
+    all_acc, old_acc, new_acc = split_cluster_acc(y_true, y_pred, mask)
 
     to_return = (all_acc, old_acc, new_acc)
 

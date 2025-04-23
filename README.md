@@ -10,7 +10,7 @@ pip install -r requirements.txt
 ```
 
 ### Datasets
-We recommend creating a folder <span style="background-color:gray; color:black;">'datasets/'</span> to store all the dataset files.
+We recommend creating a folder 'datasets/' to store all the dataset files.
 
 #### CIFAR10
 
@@ -120,15 +120,15 @@ datasets
 ### Pre-trained weights convertion
 You can either:
 
-* Download 'dino_vitbase16_pretrain.pth' from [DINO](https://github.com/facebookresearch/dino?tab=readme-ov-file), modify the <span style="background-color:gray; color:black;">.pth</span> path in <span style="background-color:gray; color:black;">'FSGCD/convert_weight.py'</span> accordingly, and run the <span style="background-color:gray; color:black;">'FSGCD/convert_weight.py'</span> script to get modified pre-trained weights.
+* Download 'dino_vitbase16_pretrain.pth' from [DINO](https://github.com/facebookresearch/dino?tab=readme-ov-file), modify the .pth path in 'FSGCD/convert_weight.py' accordingly, and run the 'FSGCD/convert_weight.py' script to get modified pre-trained weights.
 
 * Or download from this link: [weights](https://pan.baidu.com/s/1y0nQgASUDkNMQfZ2ZaNZFQ?pwd=sygz).
 
 
 ### Config Modification
-* Modify paths in <span style="background-color:gray; color:black;">'FSGCD/config.py'</span> to match your datasets and pre-trained weights.
+* Modify paths in 'FSGCD/config.py' to match your datasets and pre-trained weights.
 
-* Modify settings of bash files in <span style="background-color:gray; color:black;">'FSGCD/bash_scripts/'</span>.
+* Modify settings of bash files in 'FSGCD/bash_scripts/'.
 
 
 

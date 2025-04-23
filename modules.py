@@ -5,7 +5,7 @@ from sklearn.cluster import KMeans
 from sklearn.neighbors import NearestNeighbors
 from tqdm import tqdm
 
-from project_utils.cluster_and_log_utils import logAccs
+from project_utils.cluster_and_log_utils import log_accs
 
 
 def print_info(train_dataset, unlabeled_train_examples_test, datasets, args):
@@ -355,6 +355,6 @@ def test_kmeans(model, test_loader, args):
     ).fit(all_feats)
     preds = kmeans.labels_
 
-    all_acc, old_acc, new_acc = logAccs(y_true=targets, y_pred=preds, mask=mask)
+    all_acc, old_acc, new_acc = log_accs(y_true=targets, y_pred=preds, mask=mask)
 
     return all_acc, old_acc, new_acc
