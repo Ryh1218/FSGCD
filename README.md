@@ -158,7 +158,7 @@ This implementation builds upon [GCD](https://github.com/sgvaze/generalized-cate
 ## Cite this paper
 ```
 @inproceedings{ren2025fsgcd,
-  title={Few-shot Generalized Category Discovery},
+  title={Few-Shot Generalized Category Discovery With Retrieval-Guided Decision Boundary Enhancement},
   author={Ren, Yunhan and Luo, Feng and Huang, Siyu},
   booktitle={The 15th ACM International Conference on Multimedia Retrieval (ICMR)},
   year={2025},
