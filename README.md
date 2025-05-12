@@ -1,5 +1,5 @@
-# Few-shot Generalized Category Discovery (ICMR 2025)
-Official PyTorch Implementation of Few-shot Generalized Category Discovery (FSGCD).
+# Few-Shot Generalized Category Discovery With Retrieval-Guided Decision Boundary Enhancement (ICMR 2025)
+Official PyTorch Implementation of Few-Shot Generalized Category Discovery With Retrieval-Guided Decision Boundary Enhancement (FSGCD).
 
 ## Get Started
 ### Dependencies
